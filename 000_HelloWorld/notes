@@ -1,0 +1,36 @@
+  NOTES - 9/6/2019
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+method that reads interprets the string literls -> (the text between the double quotations)
+method -> action
+keyword -> reserved words from java
+Java requires a type for a variable for allocating pieces in the RAM ****EFFICIENCY 
+     -> Preidcting exact size for data
+
+2 billion range for Java integer
+Concatenation -> adding a bunch of strings 
+
+Strings:
+"
+'
+/ -> Infront of one character ignore special qualities 
+    System.out.println("\"whatever\"");
+    -> \n new line in the text
+    -> \'
+    -> \\
+
+Coding Conventions
+    TitleCase -> TitleEverything
+        -> Naming: Classes, Files
+    camelCase -> titleEverythingOtherThenTheFirst
+        -> Naming: Variables, Custom Methods
+    Snake_Case -> Title_only_the_first_word
+        ->Big no no in java
+    
+    Each code block should be indented ALT + Shift + F
+    Variable put on the top
+
+Grading
+    1 point - Does it run?
+    1 point - Does it follow the assignment?
+    1 point - Comments 
+    1 point - Following code conventions
