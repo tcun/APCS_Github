@@ -1,14 +1,17 @@
 public class FamousQuote
 {
-    public static void main()
+    //default main method
+    public static void main(String[] args)
     {   
-    
+    //calling method quotePrint
         quotePrint();
     }
 
+    //method being called in main
     public static void quotePrint()
     {
-        System.out.println("^\"Nice^ \"");
-        System.out.println("      "+"-Me");
+    //2 methods to print seperate lines for quote
+        System.out.println("\"Nice\"");
+        System.out.println("        "+"-Me");
     }
 }
