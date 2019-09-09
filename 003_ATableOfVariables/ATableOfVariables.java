@@ -10,7 +10,7 @@ public class ATableOfVariables
     public static void integerPrint()
     {
         variable = 1;
-    //4 methods to print seperate lines for java text art
+    //print variable table
         System.out.println("a" + "a^2" + "a^3");
         System.out.println(variable+variable + " " + squaredOperator(variable)+ " " + cubedOperator(variable));
         System.out.println(variable*2 + " " + squaredOperator(variable*2)+ " " + cubedOperator(variable*2));
