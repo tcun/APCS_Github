@@ -4,7 +4,15 @@
             "type": "java",
             "name": "CodeLens (Launch) - FamousQuote",
             "request": "launch",
-            "mainClass": "FamousQuote"
+            "mainClass": "FamousQuote",
+            "projectName": "APCS_Github_9d100a07"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ATableOfVariables",
+            "request": "launch",
+            "mainClass": "ATableOfVariables",
+            "projectName": "APCS_Github_9d100a07"
         }
     ]
 }
