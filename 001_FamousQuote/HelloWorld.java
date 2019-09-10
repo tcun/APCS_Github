@@ -7,7 +7,6 @@ public class HelloWorld {
         hello = "HelloWorld";
 
         System.out.println(hello);
-        nice();
         textArt();
     }
 
