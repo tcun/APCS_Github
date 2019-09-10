@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RefactorATableOfVariables",
+            "request": "launch",
+            "mainClass": "RefactorATableOfVariables",
+            "projectName": "APCS_Github_9d100a07"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JavaWordPattern",
+            "request": "launch",
+            "mainClass": "JavaWordPattern",
+            "projectName": "APCS_Github_9d100a07"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ATableOfVariables",
+            "request": "launch",
+            "mainClass": "ATableOfVariables",
+            "projectName": "APCS_Github_9d100a07"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SummationOfASeries",
             "request": "launch",
             "mainClass": "SummationOfASeries",
