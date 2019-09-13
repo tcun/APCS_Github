@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PopulationProjection",
+            "request": "launch",
+            "mainClass": "PopulationProjection",
+            "projectName": "APCS_Github_e6cbc686"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RefactorATableOfVariables",
             "request": "launch",
             "mainClass": "RefactorATableOfVariables",

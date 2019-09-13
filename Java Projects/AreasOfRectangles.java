@@ -6,7 +6,7 @@ public class AreasOfRectangles
         System.out.println(areaFormula(99.4, 500.352));
         System.out.println(areaFormula(inchToCent(75), 800));
         System.out.println(areaFormula(500029.75, centToInch(90029384.0)));
-        System.out.println(areaFormula(centToInch(600000.0), milliToYard(8343491034.0)));
+        System.out.println(areaFormula(centToYard(600000.0), milliToYard(8343491034.0)));
     }
     public static double areaFormula(double l, double w)
     {
@@ -30,13 +30,13 @@ public class AreasOfRectangles
 
     public static double centToYard(double cent)
     {
-        double yard = cent / 0.0109361;
+        double yard = cent / 91.44;
         return yard;
     }
 
     public static double milliToYard(double milli)
     {
-        double yard = milli / 0.00109361;
+        double yard = milli / 914.4;
         return yard;
     }
 }
