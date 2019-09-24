@@ -102,3 +102,7 @@ Object is the Cookie
 Instantiating - creating objects
 Dot notation - allows us to access methods of Classes
 Accessing Values
+    -> Null = does not exist
+    -> Constructors of classes have the same name as the class
+    -> Overload = one object multiple Constructors
+    -> Signature = parameters in a object's constructors

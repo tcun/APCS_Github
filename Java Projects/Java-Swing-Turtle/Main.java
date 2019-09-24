@@ -24,5 +24,6 @@ public class Main {
     //Finally, set the world to be visible with a boolean...
 
     World world = new World(500,500);
+    Turtle turtle = new Turtle();
   }
 }
