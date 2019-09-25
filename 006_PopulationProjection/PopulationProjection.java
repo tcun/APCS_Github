@@ -33,7 +33,7 @@ public class PopulationProjection
         popFormula();
         System.out.println("Year 5:" +endTotal);
     }
-    //population forumla for finding the total population changed based on various totals
+//population forumla for finding the total population changed based on various totals
     public static void popFormula()
     {
     //seconds in a year

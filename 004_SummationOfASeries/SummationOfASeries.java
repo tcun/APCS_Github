@@ -1,7 +1,7 @@
-public class SummationOfASeries {
-    // calling main method that runs main program
-    public static void main(String args[]) {
-        // int declarations
+public class SummationOfASeries
+{
+    public static void main(String args[])
+    {
         int one;
         int two;
         int three;
@@ -13,20 +13,19 @@ public class SummationOfASeries {
         int nine;
 
         int total;
-        // setting values to int's
+
         one = 1;
         two = 2;
         three = 3;
         four = 4;
         five = 5;
         six = 6;
-        seven = 7;
-        eight = 8;
+        seven = 7;        
+        eight = 8;    
         nine = 9;
 
         total = one + two + three + four + five + six + seven + eight + nine;
 
-        // print total
         System.out.println(total);
     }
 }
