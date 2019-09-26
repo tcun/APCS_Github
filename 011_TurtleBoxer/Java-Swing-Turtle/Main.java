@@ -22,5 +22,43 @@ public class Main {
 
     
     //Finally, set the world to be visible with a boolean...
+
+    //Creating World and Turtle Objects from their classes
+    World world = new World(500,500);
+    Turtle boxTurtle = new Turtle(250,250, world);
+    //First square
+    boxTurtle.forward();
+    boxTurtle.turnRight();
+    boxTurtle.forward();
+    boxTurtle.turnRight();
+    boxTurtle.forward();
+    boxTurtle.turnRight();
+    boxTurtle.forward();
+    //Second Square
+    boxTurtle.forward();
+    boxTurtle.turnRight();
+    boxTurtle.forward();
+    boxTurtle.turnRight();
+    boxTurtle.forward();
+    boxTurtle.turnRight();
+    boxTurtle.forward();
+    //Third Square
+    boxTurtle.forward();
+    boxTurtle.turnRight();
+    boxTurtle.forward();
+    boxTurtle.turnRight();
+    boxTurtle.forward();
+    boxTurtle.turnRight();
+    boxTurtle.forward();
+    //Fourth Square
+    boxTurtle.forward();
+    boxTurtle.turnRight();
+    boxTurtle.forward();
+    boxTurtle.turnRight();
+    boxTurtle.forward();
+    boxTurtle.turnRight();
+
+    //Running Executablwe window to see square
+    world.show(true);
   }
 }
