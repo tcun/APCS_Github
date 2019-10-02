@@ -113,3 +113,4 @@ Void = Nothing
     -> Keyword that method will return nothing
 return = Getting something back out of a method
     -> hand back a value and then exits a method
+immutable -> doesn't change 

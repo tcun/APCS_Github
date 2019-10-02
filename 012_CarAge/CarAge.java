@@ -11,16 +11,19 @@ public class CarAge
         Car car3 = new Car(1997, 161_000, "Pontiac", "Grand Prix GT", false);
         Car car4 = new Car(2003, 152_000, "Ford", "Explorer Sport", false);
 
+        //running getAge methods
         getAge(defaultCar.year);
         getAge(car1.year);
         getAge(car2.year);
         getAge(car3.year);
         getAge(car4.year);
     }
-    
+    //method of formulate car age
     public static void getAge(int carYear)
     {
+        //subtract the car year from 2019 to grab years old
         carYear -= 2019;
+        //get rid of pesky negative sign
         carYear *= -1;
         System.out.println(carYear + " Years Old");
     }
