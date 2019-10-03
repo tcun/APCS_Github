@@ -114,3 +114,13 @@ Void = Nothing
 return = Getting something back out of a method
     -> hand back a value and then exits a method
 immutable -> doesn't change 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+10/3/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Scanners - Basic User Input
+    -> Scanner scan = new Scanner(System.in);
+        Allows us to type stuff in the console
+    -> java.util.Scanner
+        "import java.util.Scanner;"
+        !Must be before class declaration!
+    -> Big Problem: The User 
