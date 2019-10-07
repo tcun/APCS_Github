@@ -124,3 +124,17 @@ Scanners - Basic User Input
         "import java.util.Scanner;"
         !Must be before class declaration!
     -> Big Problem: The User 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+10/7/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Wrapper Classes: Integers, Double, Math 
+Integer - Integer num = new Integer(42);
+    + .MIN_VALUE
+    + .MAX_VALUE
+    + intValue()
+Double - Double num = new Double(213.12);
+Autoboxing - automatic conversion from primitive types to wrapper classes
+Unboxing - automatic conversation from wrapper classes to primitive types
+Math - Automatically get the object available
+    -> Math.(method)
+    
