@@ -137,4 +137,22 @@ Autoboxing - automatic conversion from primitive types to wrapper classes
 Unboxing - automatic conversation from wrapper classes to primitive types
 Math - Automatically get the object available
     -> Math.(method)
-    
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+10/10/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Zero Index
+    -> Counting starts at Zero
+        -> String Foo = "waterfall";
+            + foo.substring(5);
+                - returns: "fall"
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+10/14/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+boolean -> true or false
+Logical Syllogisms
+    -> series of booleans to prove something is a fractions
+        -> Major Premise - a general statement that is believe to be true
+           Minor Premise - presents a specific example of the belief its conclusion
+           Conclusion
+Valid vs true
+Computer has no concept of truth, it's what we tell is true

@@ -10,6 +10,7 @@ public class TabletopDice
         System.out.println(twelveDie());
         System.out.println(twentyDie());
         System.out.println(percentile());
+        System.out.println((int)percentileOftenDie());
     }
     //methods for each type of dice
     public static int fourDie()
@@ -36,11 +37,11 @@ public class TabletopDice
         double roll = (Math.random()* 10 + 1);
         return (int)roll;
     }
-    public static int percentile()
+    public static double percentile()
     {
         //variable roll being set to random with a range of 1-10
-        double roll = (Math.random()* 10 + 1);
-        return (int)roll;
+        double roll = (Math.random());
+        return (double)roll;
     }
     public static int twelveDie()
     {
@@ -53,5 +54,9 @@ public class TabletopDice
         //variable roll being set to random with a range of 1-20
         double roll = (Math.random()* 20 + 1);
         return (int)roll;
+    }
+    public static double percentileOftenDie()
+    {
+        return percentile() * tenDie();
     }
 }
