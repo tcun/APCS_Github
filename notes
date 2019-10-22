@@ -156,3 +156,17 @@ Logical Syllogisms
            Conclusion
 Valid vs true
 Computer has no concept of truth, it's what we tell is true
+GIGO - Garbage In, Garbage out
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+10/22/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+if, else, else if 
+Comparison Operators
+    -> == 
+    -> !=
+    -> >
+    -> <
+    -> >=
+    -> <=
+else - no condition, trigger when conditions are not met
+else if - multiple conditions, it triggers if the condition evaluates to true  
