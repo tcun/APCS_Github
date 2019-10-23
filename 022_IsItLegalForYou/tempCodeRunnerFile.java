@@ -1,0 +1,1 @@
+  throw new InputMismatchException("Don't be difficult");
