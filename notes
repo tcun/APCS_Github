@@ -176,3 +176,20 @@ else if - multiple conditions, it triggers if the condition evaluates to true
 if statements
 && = and
     -> if both statements are true then it goes through
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+10/28/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Short-circuit evaluation
+    -> && and || are more efficent than & and |
+    -> if it's & it'll evaluate both sides, so saves slight optimization when doing && (Same for ||)
+De Morgan's Law
+    -> Not (A and B) is the same as Not A or Not B
+    -> Not (A or B) is the same as Not A and Not B
+Truth Tables
+    P -> Q = !P v Q
+if(userInput == "hit")
+    -> will always be false
+    -> comparing a string object to a string literal
+    -> == is very precise vs .equals, when using objects for comparison .equals is better
+    -> Aliases
+        setting objec to another object, it directs it to the original object
