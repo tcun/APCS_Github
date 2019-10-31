@@ -10,20 +10,20 @@ public class RPSOne {
     public static Scanner scan;
 
     public static void main(String args[]) {
-    //setting rock, paper, scissors objects to have value
+        // setting rock, paper, scissors objects to have value
         rock = "rock";
         paper = "paper";
         scissors = "scissors";
-    //calling game function
+        // calling game function
         game();
 
     }
 
     public static String compPlay() {
-        //setting compChoice to random int from 1-3
+        // setting compChoice to random int from 1-3
         double compChoice = Math.random() * 3 + 1;
 
-        //assigns 1-3 to have string options
+        // assigns 1-3 to have string options
         if ((int) compChoice == 1) {
             return rock;
         } else if ((int) compChoice == 2) {
@@ -34,20 +34,20 @@ public class RPSOne {
     }
 
     public static void game() {
-        //setting scanner
+        // setting scanner
         scan = new Scanner(System.in);
 
         System.out.println("Rock, Paper, or Scissors");
-        //scanning the next line
+        // scanning the next line
         userChoice = scan.next();
-        //making userChoice lowercase 
+        // making userChoice lowercase
         userChoiceLow = userChoice.toLowerCase();
 
         compGameChoice = compPlay();
         scan.close();
 
         System.out.println("The computer chose " + compGameChoice + "!");
-        //all the options for the choices
+        // all the options for the choices
         if (compGameChoice.equals(scissors) && userChoiceLow.equals(paper)) {
             System.out.println("Computer Wins!");
         } else if (compGameChoice.equals(rock) && userChoiceLow.equals(scissors)) {

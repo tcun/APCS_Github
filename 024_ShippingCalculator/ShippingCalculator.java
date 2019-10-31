@@ -6,17 +6,22 @@ public class ShippingCalculator {
     public static void main(String args[]) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Input valid weight: ");
-        //assign w to scan the next double input through terminal
+        // assign w to scan the next double input through terminal
         w = scan.nextDouble();
-        //prints the check function
-        System.out.println(check());
+        // prints the check function
+
+        if (check() > 0) {
+            System.out.println(check());
+        } else {
+            System.out.println("Invalid Input");
+        }
         scan.close();
     }
 
-    //check function that returns a double when checking w input 
+    // check function that returns a double when checking w input
 
     public static double check() {
-    
+
         if (0 < w && w < 1) {
             return 3.5;
         } else if (1 < w && w <= 3) {
@@ -25,10 +30,10 @@ public class ShippingCalculator {
             return 8.5;
         } else if (10 < w && w <= 20) {
             return 10.5;
-        } else {
-            System.out.println("Invalid Input");
+        }
+        // if not valid input return 0;
+        else {
             return 0;
-
         }
     }
 }
