@@ -42,12 +42,11 @@ public class RPSOne {
         // scanning the next line
         userChoice = scan.next();
         // making userChoice lowercase
-        userChoiceLow = userChoice.toLowerCase();
-
+        userChoice = userChoice.toLowerCase();
+        userChoiceLow = userChoice.trim();
         // setting a variable to a instance of comPlay
         compGameChoice = compPlay();
-        
-        
+
         // all the options for the choices
         if (compGameChoice.equals(scissors) && userChoiceLow.equals(paper)) {
             System.out.println("The computer chose " + compGameChoice + "!");
@@ -92,6 +91,6 @@ public class RPSOne {
             System.out.println("How can you not know how to play rock, paper, scissors?");
             game();
         }
-        
+
     }
 }
