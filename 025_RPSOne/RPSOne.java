@@ -11,9 +11,9 @@ public class RPSOne {
 
     public static void main(String args[]) {
         // setting rock, paper, scissors objects to have value
-        rock = "rock";
-        paper = "paper";
-        scissors = "scissors";
+        rock = new String("rock");
+        paper = new String("paper");
+        scissors = new String("scissors");
         // calling game function
         game();
     }
@@ -68,6 +68,10 @@ public class RPSOne {
             System.out.println("The computer chose " + compGameChoice + "!");
             System.out.println("You Win!");
             game();
+        } else if (compGameChoice.equals(rock) && userChoiceLow.equals(paper)) {
+            System.out.println("The computer chose " + compGameChoice + "!");
+            System.out.println("You Win!");
+            game();
         } else if (compGameChoice.equals(paper) && userChoiceLow.equals(rock)) {
             System.out.println("The computer chose " + compGameChoice + "!");
             System.out.println("You Win!");
@@ -91,6 +95,5 @@ public class RPSOne {
             System.out.println("How can you not know how to play rock, paper, scissors?");
             game();
         }
-
     }
 }
