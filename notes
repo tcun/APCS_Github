@@ -193,3 +193,21 @@ if(userInput == "hit")
     -> == is very precise vs .equals, when using objects for comparison .equals is better
     -> Aliases
         setting objec to another object, it directs it to the original object
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+11/6/19 - Notes - Unit 4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+for Loops
+    -> for(intialization; loop condition; increment or decrement)
+        for(i = 0; i < 5; i++)
+    ->Starts with the keyword for
+    -> Initializes a ariable we refer to as the iterator in the loop   
+        + The iterator is not available outside the Loops
+    -> sets the exit condition
+    -> sets the iteration 
+Iterator
+   -> You can use any variable name for the iterator 
+while loop vs for loop 
+    - for loop is more compact and the intialization only exists in that loop
+Algorithms
+    - for loops and if statements
+Strings have indexes
