@@ -7,6 +7,7 @@ public class test {
     {
 
         System.out.println(solution("cat"));
+        whatever("cool");
     }
 
         public static String solution(String str) {
@@ -17,6 +18,10 @@ public class test {
             emp = sub + emp;
           }
           return emp;
+        }
+
+        public static void whatever(String s){
+          System.out.print
         }
       
 

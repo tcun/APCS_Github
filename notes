@@ -211,3 +211,19 @@ while loop vs for loop
 Algorithms
     - for loops and if statements
 Strings have indexes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+11/18/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Nested loops
+    - for loop in a for loops
+    - probably 2 deep
+Break
+    - will end a for or while loop
+    - Typically contained in if statements 
+    - supercedes loop condition
+Statement Execution Count
+    - number of times 
+Trace Tables    
+    - Manually map a for or while loop
+    - Debugging 
+    - Terrible for vast amount of data

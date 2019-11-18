@@ -64,5 +64,4 @@ public class BlackjackOne {
         double num = Math.random() * 10 + 1;
         return (int) num;
     }
-
 }
