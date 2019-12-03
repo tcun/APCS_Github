@@ -91,6 +91,5 @@ public class RPSOne {
             System.out.println("How can you not know how to play rock, paper, scissors?");
             game();
         }
-
     }
 }
