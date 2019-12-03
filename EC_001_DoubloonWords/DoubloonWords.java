@@ -18,7 +18,7 @@ public class DoubloonWords {
             String letterCheck = input.substring(i, i + 1);
             //If has 2 or less characters break and print invalid
             if(input.length() <= 2){
-                System.out.println("Invalid word, need more characters");
+                System.out.println("Invalid doubloon word, need more characters");
                 break;
             }
             //checking if the letter is equal to the next
