@@ -60,7 +60,7 @@ public class RPSOne {
             System.out.println("The computer chose " + compGameChoice + "!");
             System.out.println("Computer Wins!");
             game();
-        } else if (compGameChoice.equals(paper) && userChoiceLow.equals(rock)) {
+        } else if (compGameChoice.equals(paper) && userChoiceLow.equals(scissors)) {
             System.out.println("The computer chose " + compGameChoice + "!");
             System.out.println("You win!");
             game();
