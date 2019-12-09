@@ -227,3 +227,29 @@ Trace Tables
     - Manually map a for or while loop
     - Debugging 
     - Terrible for vast amount of data
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+12/9/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Classes and Method Building
+    -> DRY - Don't Repeat Yourself 
+    -> Procedural Abstraction
+        + Systematically simplifying code, w/ a certain set of rules
+        + Easier Debugging
+Creating a Method
+    // public static void sayHello(String x)
+    // {
+            // code goes in here
+    // }
+        + "public" = access modifer
+        + "void" = return type
+            - Must have a return type
+            - Types: double, int, String, Double, Integer, long, void (Can be objects or basic data types)
+        + "sayHello" = method name
+            - Avoiding similar names
+        + "static" = staticOrNot
+    -> Parameters
+        + You can set up as many parameters as you want
+        + Creates a variable to scope the method
+    -> public and static
+        + static - tricky
+
