@@ -252,4 +252,22 @@ Creating a Method
         + Creates a variable to scope the method
     -> public and static
         + static - tricky
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+12/9/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Accessors and Mutators
+    -> Instance Variables - (Variables outside the main)
+        - Always should be private
+    -> Encapsulation - (Closing things and prevent and allowing access)
+        - Read/Write Accessing
+    -> Getters and Setters
+        - Allows you to control 
+    -> Accessor Methods (Getters)
+        - Custom defined methods intended to return a specific private value
+        - Practice dictates that you name these methods get[TheVariable]
+    -> Mutator Methods (Setters)
+        - Custom Defined methods intended to set a specific private value
+        - Practice dictates that you name these methods set[TheVariable]
+
+
 
