@@ -9,11 +9,6 @@ public class SimpleCounterButAForLoop {
         System.out.println();
         int c = 0;
         
-        while(c < 10)
-        {
-            System.out.println(c + 1);
-            c++;
-        }
     }
 
 }

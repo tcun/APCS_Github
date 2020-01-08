@@ -5,10 +5,8 @@ method -> action
 keyword -> reserved words from java
 Java requires a type for a variable for allocating pieces in the RAM ****EFFICIENCY 
      -> Preidcting exact size for data
-
 2 billion range for Java integer
 Concatenation -> adding a bunch of strings 
-
 Strings:
 "
 '
@@ -17,7 +15,6 @@ Strings:
     -> \n new line in the text
     -> \'
     -> \\
-
 Coding Conventions
     TitleCase -> TitleEverything
         -> Naming: Classes, Files
@@ -28,13 +25,11 @@ Coding Conventions
     
     Each code block should be indented ALT + Shift + F
     Variable put on the top
-
 Grading
     1 point - Does it run?
     1 point - Does it follow the assignment?
     1 point - Comments 
     1 point - Following code conventions
-
 Operator Precedence = PEMDAS
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 9/13/19 - Notes
@@ -268,6 +263,17 @@ Accessors and Mutators
     -> Mutator Methods (Setters)
         - Custom Defined methods intended to set a specific private value
         - Practice dictates that you name these methods set[TheVariable]
-
-
-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+1/7/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+this - Java Keyword
+    -> Local Scope takes 1st priority unless stated otherwise
+    -> Sets "this" to be an object reference and skips local level (the method or function) to move to instance level (Entire class)
+        - Use it in constructor and mutator methods to keep variable naming scheming the same to reduce confusion
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+1/8/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Constructors (Builds an object) and Overloading
+    -> Making multiple constructors with different parameters
+    -> When declaring one constructor, the base constructor dictates 
+        - Declare the base constructor and the constructor with parameters to get both

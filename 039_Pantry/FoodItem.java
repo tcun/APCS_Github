@@ -8,6 +8,7 @@ public class FoodItem {
     public FoodItem() {
     }
 
+
     // four mutator methods that allows to set the value of their variable
     public void setFoodAmount(int initFoodAmount) {
         foodAmount = initFoodAmount;
