@@ -4,7 +4,9 @@ public class Phone {
     String color;
     double version;
     String type;
+    // Creating Three Constructors (Overloading!!!!)
 
+    // Base Constructor for a default phone with predetermined values
     public Phone(){
         button = true;
         color = "Silver";
@@ -12,6 +14,7 @@ public class Phone {
         type = "iPhone 4";
     }
 
+    // Constructor with only one parameter for changing color
     public Phone(String initColor) {
         color = initColor;
         button = true;
@@ -19,7 +22,7 @@ public class Phone {
         type = "iPhone 4";
     }
 
-    // Constructor method that intializes variables to avoid static
+    // Custom Constructor method that intializes variables to avoid static
     public Phone(String initType, double initVersion, String initColor, boolean initButton) {
         button = initButton;
         color = initColor;

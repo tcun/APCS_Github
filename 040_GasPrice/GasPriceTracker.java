@@ -1,7 +1,7 @@
 public class GasPriceTracker {
     double gasPrice;
     String type;
-
+// Creating setters and getters using "this." to grab class specific instanteouses 
     public void setGasPrice(double gasPrice) {
         this.gasPrice = gasPrice;
     }
