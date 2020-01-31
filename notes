@@ -264,16 +264,47 @@ Accessors and Mutators
         - Custom Defined methods intended to set a specific private value
         - Practice dictates that you name these methods set[TheVariable]
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-1/7/19 - Notes
+1/7/20 - Notes
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 this - Java Keyword
     -> Local Scope takes 1st priority unless stated otherwise
     -> Sets "this" to be an object reference and skips local level (the method or function) to move to instance level (Entire class)
         - Use it in constructor and mutator methods to keep variable naming scheming the same to reduce confusion
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-1/8/19 - Notes
+1/8/20 - Notes
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Constructors (Builds an object) and Overloading
     -> Making multiple constructors with different parameters
     -> When declaring one constructor, the base constructor dictates 
         - Declare the base constructor and the constructor with parameters to get both
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+1/27/20 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Arrays
+ -> variable = symbol that represents a value
+ -> array = a shelf that stores multiple values 
+    - FIXED number of values of ONE type
+    - each value can be changed to a different value 
+-> declaration
+    - int: int[] foo;
+        + int[] foo = new int[12];
+    - String: String[] bar;
+        + String[] bar = new String[3]
+    - Custom Object: Candy[] candyBox;
+        + Candy[] candyBox = new Candy[75];
+-> Loading Values (zero index)
+    -First way:  
+    /* int[] foo = new int[3];
+         foo[0] = 1;
+         foo[1] = 2;
+         foo[2] = 3; *\
+    -Second Way:
+     /* int[5] food = {0,1,2,3,4}; *\
+     /* String[3] dang = {new String("nice"), new String("cool"), new String("wow")}; *\
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+1/27/20 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+Looping Arrays  
+    -> Starting a loop at 0 and incrementing by one
+    -> All arrays can return their length with .length
+

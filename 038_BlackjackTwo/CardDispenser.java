@@ -94,6 +94,11 @@ public class CardDispenser {
             System.out.println("You lose!");
             wow = false;
             scan.close();
+        }
+        else if (dealerTotal > 21 && total < 21) {
+            System.out.println("You win!");
+            wow = false;
+            scan.close();
         } else if (total > 21) {
             System.out.println("You lose");
             wow = false;
