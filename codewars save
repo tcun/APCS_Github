@@ -1,0 +1,23 @@
+public class CountingDuplicates {
+  public static int duplicateCount(String text) {
+    int total = 0;
+    ArrayList<Character> ar = new ArrayList<Character>();
+    
+    for(int i = 0; i < text.length(); i++){
+        char str = text.charAt(i);
+        for(int j = i; j < text.length() - i; j++)
+        {
+          if(str == text.charAt(j)){
+            ar.add(text.charAt(j));
+          }
+        }
+    }
+    
+    for(int i = 0; i < ar.length; i++){
+      if(ar.get(i) =! ar.get(i+ 1)){
+        total++;
+      }
+    }
+    return total;
+  }
+}

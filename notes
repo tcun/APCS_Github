@@ -307,4 +307,19 @@ Arrays
 Looping Arrays  
     -> Starting a loop at 0 and incrementing by one
     -> All arrays can return their length with .length
-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+2/3/20 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+For Each 
+    -> third type of loops 
+        - while
+        - for
+        - for each
+    -> Specifically used with Arrays and ArrayLists
+        - Do something for each item
+        - Shorter syntax
+    -> Not great for comparing items against each other in an array like a for loop
+        - Not iterable, no counter
+    -> for(variable: array)
+        - for(int x: arr)
+    
