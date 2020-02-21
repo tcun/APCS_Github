@@ -1,16 +1,13 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class test {
-  public static boolean  isIsogram(String str) {
-      String lowStr = str.toLowerCase();
-      boolean isDone = true;
-      
-      for(int i = 0; i < lowStr.length() - 1; i++)
-      {
-        String s = lowStr.substring(i, i +1);
-        String ss = lowStr.substring(i + 1, i + 2);
-        if(s.equals(ss)){
-             isDone = false;
-        } 
+  
+  public static void main(String args[]) {
+    ArrayList<Integer> x = new ArrayList<Integer>(Arrays.asList(4,2,3,7,345,24,56,3,4,53,5,4,5678,65,2));  
+    
+    for(Integer y: x){
+      System.out.println(y.intValue());
       }
-      return isDone;
-  } 
+    }
 }

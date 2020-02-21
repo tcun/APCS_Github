@@ -322,4 +322,31 @@ For Each
         - Not iterable, no counter
     -> for(variable: array)
         - for(int x: arr)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+2/18/20 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+ArrayLists
+    -> Flexible Arrays 
+        - No fixed lengths 
+        - Items can be added or removed as needed
+        - All existing array usages apply as well 
+        - CON: Less performant, 
+    -> no primitive types
+        - Integer =/= int  
+        - Double =/= double
+        - Boolean =/= boolean
+    -> import java.util.ArrayList;
+        - import java.util.*; (Use this one)
+    -> Declaring: ArrayList<Type> name;
+        - ArrayList<Integer> whateverInts;
+        - ArrayList<Trees> forrest;
+    -> Initialize: name = new ArrayList<Type>();
+        - whateverInts = new ArrayList<Integer>();
+    -> Methods  
+        - arr.size();
+        - add(objectOfArrayType);
+        - add(int index, objectOfArrayType);
+        - remove(int index);
+        - get(int index);
+        - set(int index, objectOfArrayType)
     
