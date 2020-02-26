@@ -349,4 +349,26 @@ ArrayLists
         - remove(int index);
         - get(int index);
         - set(int index, objectOfArrayType)
-    
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+2/25/20 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+Linear and Binary Searching Algorithms
+    -> Algorithm 
+        - A finite sequence of well-defned, computer implementable instructions, typically to solve a class of problems or to perform a computation
+    -> Linear Search    
+        - Loops through an array, index by index, ot match the search target with data at array index
+        - number is reported back for additional use
+        - performed on already sorted data
+        - If target is not found return -1
+    -> Binary Search
+        - Drastically more efficient at finding values
+        - Process
+            + Target data selected
+            + Midpoint of array is determined
+            + is target data less than to the value of the midpoint of the array
+            + if less than midpoint, throw away all values greater than midpoint
+                * If greater, throw away all values less than midpoint
+            + Determine midpoint of remaing values
+            + repeat until midpoint is neither greater nor less than value
+                * Midpoint will equal target
+            + return -1 if there are not equal target
