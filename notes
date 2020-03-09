@@ -372,3 +372,10 @@ Linear and Binary Searching Algorithms
             + repeat until midpoint is neither greater nor less than value
                 * Midpoint will equal target
             + return -1 if there are not equal target
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+3/9/20 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Selection Sort 
+    A sortation algorithm where each the value of index fo an array incrementally swapped with the next smallest value until the array is sorted from smallest to largest
+        - Binary search does not work without being sorted 
+    
