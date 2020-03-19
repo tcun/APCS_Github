@@ -5,10 +5,8 @@ method -> action
 keyword -> reserved words from java
 Java requires a type for a variable for allocating pieces in the RAM ****EFFICIENCY 
      -> Preidcting exact size for data
-
 2 billion range for Java integer
 Concatenation -> adding a bunch of strings 
-
 Strings:
 "
 '
@@ -17,7 +15,6 @@ Strings:
     -> \n new line in the text
     -> \'
     -> \\
-
 Coding Conventions
     TitleCase -> TitleEverything
         -> Naming: Classes, Files
@@ -28,13 +25,11 @@ Coding Conventions
     
     Each code block should be indented ALT + Shift + F
     Variable put on the top
-
 Grading
     1 point - Does it run?
     1 point - Does it follow the assignment?
     1 point - Comments 
     1 point - Following code conventions
-
 Operator Precedence = PEMDAS
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 9/13/19 - Notes
@@ -137,4 +132,250 @@ Autoboxing - automatic conversion from primitive types to wrapper classes
 Unboxing - automatic conversation from wrapper classes to primitive types
 Math - Automatically get the object available
     -> Math.(method)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+10/10/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Zero Index
+    -> Counting starts at Zero
+        -> String Foo = "waterfall";
+            + foo.substring(5);
+                - returns: "fall"
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+10/14/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+boolean -> true or false
+Logical Syllogisms
+    -> series of booleans to prove something is a fractions
+        -> Major Premise - a general statement that is believe to be true
+           Minor Premise - presents a specific example of the belief its conclusion
+           Conclusion
+Valid vs true
+Computer has no concept of truth, it's what we tell is true
+GIGO - Garbage In, Garbage out
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+10/22/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+if, else, else if 
+Comparison Operators
+    -> == 
+    -> !=
+    -> >
+    -> <
+    -> >=
+    -> <=
+else - no condition, trigger when conditions are not met
+else if - multiple conditions, it triggers if the condition evaluates to true  
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+10/23/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+if statements
+&& = and
+    -> if both statements are true then it goes through
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+10/28/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Short-circuit evaluation
+    -> && and || are more efficent than & and |
+    -> if it's & it'll evaluate both sides, so saves slight optimization when doing && (Same for ||)
+De Morgan's Law
+    -> Not (A and B) is the same as Not A or Not B
+    -> Not (A or B) is the same as Not A and Not B
+Truth Tables
+    P -> Q = !P v Q
+if(userInput == "hit")
+    -> will always be false
+    -> comparing a string object to a string literal
+    -> == is very precise vs .equals, when using objects for comparison .equals is better
+    -> Aliases
+        setting objec to another object, it directs it to the original object
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+11/6/19 - Notes - Unit 4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+for Loops
+    -> for(intialization; loop condition; increment or decrement)
+        for(i = 0; i < 5; i++)
+    ->Starts with the keyword for
+    -> Initializes a ariable we refer to as the iterator in the loop   
+        + The iterator is not available outside the Loops
+    -> sets the exit condition
+    -> sets the iteration 
+Iterator
+   -> You can use any variable name for the iterator 
+while loop vs for loop 
+    - for loop is more compact and the intialization only exists in that loop
+Algorithms
+    - for loops and if statements
+Strings have indexes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+11/18/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Nested loops
+    - for loop in a for loops
+    - probably 2 deep
+Break
+    - will end a for or while loop
+    - Typically contained in if statements 
+    - supercedes loop condition
+Statement Execution Count
+    - number of times 
+Trace Tables    
+    - Manually map a for or while loop
+    - Debugging 
+    - Terrible for vast amount of data
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+12/9/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Classes and Method Building
+    -> DRY - Don't Repeat Yourself 
+    -> Procedural Abstraction
+        + Systematically simplifying code, w/ a certain set of rules
+        + Easier Debugging
+Creating a Method
+    // public static void sayHello(String x)
+    // {
+            // code goes in here
+    // }
+        + "public" = access modifer
+        + "void" = return type
+            - Must have a return type
+            - Types: double, int, String, Double, Integer, long, void (Can be objects or basic data types)
+        + "sayHello" = method name
+            - Avoiding similar names
+        + "static" = staticOrNot
+    -> Parameters
+        + You can set up as many parameters as you want
+        + Creates a variable to scope the method
+    -> public and static
+        + static - tricky
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+12/9/19 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Accessors and Mutators
+    -> Instance Variables - (Variables outside the main)
+        - Always should be private
+    -> Encapsulation - (Closing things and prevent and allowing access)
+        - Read/Write Accessing
+    -> Getters and Setters
+        - Allows you to control 
+    -> Accessor Methods (Getters)
+        - Custom defined methods intended to return a specific private value
+        - Practice dictates that you name these methods get[TheVariable]
+    -> Mutator Methods (Setters)
+        - Custom Defined methods intended to set a specific private value
+        - Practice dictates that you name these methods set[TheVariable]
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+1/7/20 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+this - Java Keyword
+    -> Local Scope takes 1st priority unless stated otherwise
+    -> Sets "this" to be an object reference and skips local level (the method or function) to move to instance level (Entire class)
+        - Use it in constructor and mutator methods to keep variable naming scheming the same to reduce confusion
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+1/8/20 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Constructors (Builds an object) and Overloading
+    -> Making multiple constructors with different parameters
+    -> When declaring one constructor, the base constructor dictates 
+        - Declare the base constructor and the constructor with parameters to get both
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+1/27/20 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Arrays
+ -> variable = symbol that represents a value
+ -> array = a shelf that stores multiple values 
+    - FIXED number of values of ONE type
+    - each value can be changed to a different value 
+-> declaration
+    - int: int[] foo;
+        + int[] foo = new int[12];
+    - String: String[] bar;
+        + String[] bar = new String[3]
+    - Custom Object: Candy[] candyBox;
+        + Candy[] candyBox = new Candy[75];
+-> Loading Values (zero index)
+    -First way:  
+    /* int[] foo = new int[3];
+         foo[0] = 1;
+         foo[1] = 2;
+         foo[2] = 3; *\
+    -Second Way:
+     /* int[5] food = {0,1,2,3,4}; *\
+     /* String[3] dang = {new String("nice"), new String("cool"), new String("wow")}; *\
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+1/27/20 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+Looping Arrays  
+    -> Starting a loop at 0 and incrementing by one
+    -> All arrays can return their length with .length
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+2/3/20 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+For Each 
+    -> third type of loops 
+        - while
+        - for
+        - for each
+    -> Specifically used with Arrays and ArrayLists
+        - Do something for each item
+        - Shorter syntax
+    -> Not great for comparing items against each other in an array like a for loop
+        - Not iterable, no counter
+    -> for(variable: array)
+        - for(int x: arr)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+2/18/20 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+ArrayLists
+    -> Flexible Arrays 
+        - No fixed lengths 
+        - Items can be added or removed as needed
+        - All existing array usages apply as well 
+        - CON: Less performant, 
+    -> no primitive types
+        - Integer =/= int  
+        - Double =/= double
+        - Boolean =/= boolean
+    -> import java.util.ArrayList;
+        - import java.util.*; (Use this one)
+    -> Declaring: ArrayList<Type> name;
+        - ArrayList<Integer> whateverInts;
+        - ArrayList<Trees> forrest;
+    -> Initialize: name = new ArrayList<Type>();
+        - whateverInts = new ArrayList<Integer>();
+    -> Methods  
+        - arr.size();
+        - add(objectOfArrayType);
+        - add(int index, objectOfArrayType);
+        - remove(int index);
+        - get(int index);
+        - set(int index, objectOfArrayType)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+2/25/20 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+Linear and Binary Searching Algorithms
+    -> Algorithm 
+        - A finite sequence of well-defned, computer implementable instructions, typically to solve a class of problems or to perform a computation
+    -> Linear Search    
+        - Loops through an array, index by index, ot match the search target with data at array index
+        - number is reported back for additional use
+        - performed on already sorted data
+        - If target is not found return -1
+    -> Binary Search
+        - Drastically more efficient at finding values
+        - Process
+            + Target data selected
+            + Midpoint of array is determined
+            + is target data less than to the value of the midpoint of the array
+            + if less than midpoint, throw away all values greater than midpoint
+                * If greater, throw away all values less than midpoint
+            + Determine midpoint of remaing values
+            + repeat until midpoint is neither greater nor less than value
+                * Midpoint will equal target
+            + return -1 if there are not equal target
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+3/9/20 - Notes
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Selection Sort 
+    A sortation algorithm where each the value of index fo an array incrementally swapped with the next smallest value until the array is sorted from smallest to largest
+        - Binary search does not work without being sorted 
     
